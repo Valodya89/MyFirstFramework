@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "This is a my long description for the app MyFirstFramework"
 
-  s.homepage     = "http://EXAMPLE/MyFirstFramework"
+  s.homepage     = "https://github.com/Valodya89/MyFirstFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   #s.source       = { :path => '.' }
-  s.source       = { :git => "https://github.com/Valodya89/MyFirstFramework", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Valodya89/MyFirstFramework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
