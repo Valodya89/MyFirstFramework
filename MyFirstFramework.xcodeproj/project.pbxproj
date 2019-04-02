@@ -48,11 +48,27 @@
 		6C08840A2252C9E7006FCB0B /* MyFirstFramework */ = {
 			isa = PBXGroup;
 			children = (
-				6C08840B2252C9E7006FCB0B /* MyFirstFramework.h */,
+				6C0884342253519E006FCB0B /* Pod */,
 				6C08840C2252C9E7006FCB0B /* Info.plist */,
-				6C0884132252CA4E006FCB0B /* MyFirstFramework.swift */,
 			);
 			path = MyFirstFramework;
+			sourceTree = "<group>";
+		};
+		6C088433225350BB006FCB0B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C08840B2252C9E7006FCB0B /* MyFirstFramework.h */,
+				6C0884132252CA4E006FCB0B /* MyFirstFramework.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6C0884342253519E006FCB0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C088433225350BB006FCB0B /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
